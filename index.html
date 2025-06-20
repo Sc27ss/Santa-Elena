@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa en Arriendo - Santa Elena, Antioquia | Tranquilidad y Naturaleza</title>
+    <meta name="description" content="Casa amoblada en arriendo en Santa Elena, Antioquia. 3 habitaciones, 1000m² de terreno, cerca al Parque Arví. Ideal para familias que buscan tranquilidad.">
+    
+    <!-- Open Graph tags for social media sharing -->
+    <meta property="og:title" content="Casa en Arriendo - Santa Elena, Antioquia">
+    <meta property="og:description" content="Casa amoblada en arriendo en Santa Elena, Antioquia. 3 habitaciones, 1000m² de terreno, cerca al Parque Arví.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">Casa Santa Elena</div>
+                <div class="nav-menu">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                     <a href="#caracteristicas" class="nav-link">Características</a>
+                     <a href="#galeria" class="nav-link">Galería</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section" style="background-image: url('https://i.imgur.com/kJT3iS5.jpeg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Tu Refugio Natural</h1>
+            <p class="hero-subtitle">
+                Casa encantadora en Santa Elena, Antioquia<br>
+                <span class="hero-highlight">Donde la tranquilidad se encuentra con la comodidad</span>
+            </p>
+            <div class="hero-buttons">
+                <button onclick="scrollToSection('caracteristicas')" class="btn btn-primary">Conoce más</button>
+                <a href="tel:+573054572714" class="btn btn-secondary">Llamar ahora</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <h2 class="section-title">Vive la Experiencia Santa Elena</h2>
+                <p class="section-description">
+                    Descubre un hogar lejos de la ciudad en el corazón de Santa Elena, Antioquia. 
+                    A solo 5 minutos del famoso Parque Arví y 50 minutos de Medellín, nuestra casa 
+                    amoblada te ofrece la perfecta combinación entre naturaleza / comodidad para 
+                    ti y tu familia.
+                </p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-count="1000">0</div>
+                    <div class="stat-label">m² de Terreno</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="130">0</div>
+                    <div class="stat-label">m² Construidos</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="3">0</div>
+                    <div class="stat-label">Habitaciones</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="8">0</div>
+                    <div class="stat-label">Parqueaderos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="caracteristicas" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Características Destacadas</h2>
+                <p class="section-description">
+                    Todo lo que necesitas para una estancia perfecta en el paraíso natural de Santa Elena
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Casa Completamente Amoblada</h3>
+                    <p class="feature-description">130m² de espacios cómodos con sala de estar, sala de TV, cocina integral y todas las comodidades del hogar.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg> 
+                    </div>
+                    <h3 class="feature-title">3 Habitaciones Cómodas</h3>
+                    <p class="feature-description">Espacios amplios y luminosos para descansar, perfectos para familias o grupos de amigos.</p>
+                </div>
+
+                <div class="feature-card">
+    <div class="feature-icon">
+        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v10M8 7h4a3 3 0 013 3v0a3 3 0 01-3 3H8"></path>
+        </svg>
+    </div>
+    <h3 class="feature-title">Parqueadero para 8 Carros</h3>
+    <p class="feature-description">Parqueadero cubierto para 1 vehículo y espacio adicional para 7 carros más. Ideal para reuniones familiares.</p>
+</div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Chimeneas Interna y Externa</h3>
+                    <p class="feature-description">Disfruta del clima frío de Santa Elena con acogedoras chimeneas para momentos inolvidables.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Seguridad Total</h3>
+                    <p class="feature-description">Cámaras de seguridad, alarma, portón interno y externo para tu tranquilidad absoluta.</p>
+                </div>
+
+                <div class="feature-card">
+    <div class="feature-icon">
+        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 22v-6"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16l4-6 4 6h-8z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3-4 3 4h-6z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 8l2-3 2 3h-4z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 22h4"></path>
+        </svg>
+    </div>
+    <h3 class="feature-title">Zonas Verdes Amplias</h3>
+    <p class="feature-description">1000m² de terreno con jardines mantenidos, espacios para recreación y conexión con la naturaleza.</p>
+</div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Conectividad Completa</h3>
+                    <p class="feature-description">Internet, teléfono fijo y todos los servicios públicos incluidos.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"> 
+                  
+                        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Ubicación Privilegiada</h3>
+                    <p class="feature-description">A 5 minutos del Parque Arví, 50 minutos de Medellín, con excelente vía de acceso y ruta de buses.</p>
+                </div>
+
+                 <div class="feature-card">
+                    <div class="feature-icon"> 
+                        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Mantenimiento Incluido</h3>
+                    <p class="feature-description">Mantenimiento de jardines y guadañada incluido en el precio del arriendo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galería de Imágenes</h2>
+                <p class="section-description">
+                    Descubre cada rincón de tu próximo hogar en Santa Elena
+                </p>
+            </div>
+
+            <!-- Main Featured Image -->
+            <div class="featured-image">
+                <img src="https://i.imgur.com/s2HimjH.jpeg=w1920-h1080" 
+                     alt="Vista exterior de la casa en Santa Elena" 
+                     class="main-gallery-image">
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://i.imgur.com/5lgB9ee.jpeg=w1920-h1080" 
+                         alt="Sala de estar con vista panorámica">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://i.imgur.com/ZfLDaV0.jpeg=w1920-h1080" 
+                         alt="Cocina integral completamente equipada">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://i.imgur.com/iBIAyj1.jpeg=w1920-h1080" 
+                         alt="Habitación principal con vista a la montaña">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://i.imgur.com/4zGd5Nk.jpeg=w1920-h1080" 
+                         alt="Zonas verdes y jardín amplio">
+                </div> 
+                <div class="gallery-item">
+                    <img src="https://i.imgur.com/0rCUTR5.jpeg=w1920-h1080" 
+                         alt="Chimenea interna para noches acogedoras">
+                   </div>
+                <div class="gallery-item">
+                    <img src="https://i.imgur.com/lf5YhSR.png=w1920-h1080" 
+                         alt="Chimenea interna para noches acogedoras">
+                </div>
+            </div>
+
+            <div class="gallery-note">
+                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                <span>Más fotos disponibles durante la visita. ¡Agenda tu cita hoy mismo!</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-content">
+                <h2 class="section-title text-white">Condiciones de Arriendo</h2>
+                
+                <div class="pricing-card">
+                    <div class="price-amount">$3.400.000</div>
+                    <div class="price-period">COP mensuales</div>
+                    <div class="price-condition">Contrato mínimo de 6 meses</div>
+                    
+                    <div class="pricing-features">
+                        <div class="pricing-feature">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <div>
+                                <div class="feature-name"> Incluido</div>
+                                <div class="feature-desc">Mantenimiento</div>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-feature">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                            <div>
+                                <div class="feature-name">Flexibilidad</div>
+                                <div class="feature-desc">Estancias largas</div>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-feature">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path>
+                            </svg>
+                            <div>
+                                <div class="feature-name">Confianza</div>
+                                <div class="feature-desc">Proceso transparente</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="benefits-section">
+                    <h3 class="benefits-title">¿Por qué elegir nuestra casa?</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l14 9-14 9V3z"></path>
+                            </svg> 
+                            <span>Ubicación privilegiada cerca del Parque Arví</span>
+                        </div> 
+                        <div class="benefit-item">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                            <span>Ideal para familias y grupos</span>
+                        </div>
+                        <div class="benefit-item">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                            </svg>
+                            <span>Conexión total con la naturaleza</span>
+                        </div>
+                        <div class="benefit-item">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                            </svg>
+                            <span>A solo 50 minutos de Medellín</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">¡Reserva Ahora Tu Estancia!</h2>
+                <p class="section-description">
+                    No pierdas la oportunidad de vivir una experiencia única en Santa Elena. 
+                    Contáctanos hoy mismo para más información y disponibilidad.
+                </p>
+
+                <div class="contact-grid">
+                    <a href="tel:+573054572714" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="contact-title">Llama Directamente</h3>
+                        <p class="contact-description">Habla con nosotros ahora</p>
+                        <div class="contact-info">305 4572714</div>
+                    </a>
+
+                    <a href="mailto:contactanos.4@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="contact-title">Envía un Email</h3>
+                        <p class="contact-description">Escríbenos tus consultas</p>
+                        <div class="contact-info">contactanos.4@gmail.com</div>
+                    </a>
+                </div>
+
+                <div class="whatsapp-info">
+                    <h3 class="whatsapp-title">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                        </svg>
+                        También puedes escribirnos por WhatsApp
+                    </h3>
+                    <p class="whatsapp-description">
+                        Haz clic en el botón flotante de WhatsApp para iniciar una conversación inmediata
+                    </p>
+                    <div class="whatsapp-number">+57 305 4572714</div>
+                </div>
+
+                <div class="schedule-info">
+                    <h4 class="schedule-title">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12,6 12,12 16,14"></polyline>
+                        </svg>
+                        Horarios de Atención
+                    </h4>
+                    <div class="schedule-grid">
+                        <div>
+                            <strong>Lunes a Viernes:</strong><br>
+                            8:00 AM - 6:00 PM
+                        </div>
+                        <div>
+                            <strong>Sábados y Domingos:</strong><br>
+                            9:00 AM - 5:00 PM
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Casa Santa Elena</div>
+                <p class="footer-tagline">Tu refugio natural en el corazón de Antioquia</p>
+                
+                <div class="footer-social">
+                    <a href="tel:+573054572714" class="social-link" aria-label="Llamar por teléfono">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                        </svg>
+                    </a>
+                    <a href="mailto:contactanos.4@gmail.com" class="social-link" aria-label="Enviar email">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/573054572714?text=Hola,%20estoy%20interesado%20en%20la%20casa%20en%20arriendo%20en%20Santa%20Elena" 
+                       target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Contactar por WhatsApp">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                        </svg>
+                    </a>
+                </div>
+                
+                <div class="footer-divider"></div>
+                <p class="footer-copyright">© 2025 Casa Santa Elena. Todos los derechos reservados.
+              </p>
+            </div>
+        </div> 
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/573054572714?text=Hola,%20estoy%20interesado%20en%20la%20casa%20en%20arriendo%20en%20Santa%20Elena" 
+       target="_blank" rel="noopener noreferrer" 
+       class="whatsapp-button" 
+       id="whatsappButton" 
+       aria-label="Contactar por WhatsApp">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+        </svg>
+        
+        <div class="whatsapp-tooltip">
+            Contáctanos por WhatsApp
+            <div class="tooltip-arrow"></div>
+        </div>
+        
+        <div class="whatsapp-pulse"></div>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
